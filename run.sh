@@ -1,0 +1,1 @@
+streamlit run --browser.serverAdress $SERVER_NAME --server.port $PORT jam.py
