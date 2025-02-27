@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 from pathlib import Path
-import plotly.express as px
 import streamlit as st
 import pandas as pd
 THIS_DIR = Path(__file__).parent
