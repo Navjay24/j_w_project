@@ -16,7 +16,7 @@ ul=ul['url']
 ul=list(ul.values())
 ml=sorted(list(df.to_dict()['marksgroup'].values()))[::-1]
 
-query_params = st.experimental_get_query_params()
+query_params = st.session_state.query_params
 url=query_params.get("link",[""])[0]
 
 st.markdown(f'<form><input name="link" required><button type="submit">check validity of link</button></form>',unsafe_allow_html=True)
